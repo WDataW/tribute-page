@@ -1,0 +1,31 @@
+/* making the image responsive for different screen sizes. */
+img{
+    margin:5% 15% 5% 15%;
+    width: 70%;
+    object-fit: contain;
+    border-radius: 1rem;
+}
+/* nav is smaller screens fills its own line, therefore there is no problem making it wider. */
+nav{
+    width: 90%;
+}
+/* to make the body fill the entire width of the screen. To avoid wasting screen area in smaller screens. */
+body{
+    padding: 0;
+    min-width: 100%;
+}
+/* to avoid making the hr the same width as the page. It looked ugly that way. */
+hr{
+    width: 80%;
+}
+/* to make the section fill the entire screen width in smaller screens. */
+section{
+    box-sizing: border-box;
+    padding: 2rem;
+    width: 100%;
+    background-image: linear-gradient(to right, transparent 0%,rgb(0 0 0/0.1) 5%,rgb(0 0 0/0.1) 95%,transparent 100%);
+    
+}
+.intro{
+    text-align: left;
+}

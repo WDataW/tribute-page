@@ -1,0 +1,30 @@
+body{
+    padding: 2rem;
+
+}
+/* making the image responsive for different screen sizes. */
+img{
+    margin:0 3% 3% 3%;
+    max-width: 33%;
+    float: right;
+    object-fit: contain;
+    border-radius: 1rem;
+}
+/* when width is set to 100% its background slips under the image*/
+nav{
+    width: 40%;
+}
+section{
+    padding: 1rem;
+}
+/* when width is set to 100% its background slips under the image*/
+p.intro{
+    text-align: center;
+    width: 50%;
+    
+}
+article section:first-child{
+    margin-top: 4rem;
+}
+
+

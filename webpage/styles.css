@@ -1,0 +1,104 @@
+@import url(small-screens.css) (max-width:640px);
+@import url(large-screens.css) (min-width:641px) and (max-width:1200px);
+@import url(xlarge-screens.css) (min-width:1201px);
+
+html,body{
+    margin: 0;
+    min-height: 100%;
+    color: white;
+    font: 20px / 1.8em "Poppoins" ,Arial, Helvetica, sans-serif ;
+}
+hr{
+    border: 0.1rem solid white;
+    box-shadow: 2px 2px 0 black;
+    margin-bottom: 3%;
+}
+
+
+html{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(255,197,243);
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);    background-attachment: fixed;
+
+}
+body{
+    margin-top: 1rem;
+    width: 80%;
+    background-image: linear-gradient(to right,rgb(0 0 0/0.1)0%,rgb(0 0 0/0.05) 10%,rgb(0 0 0/0.05) 90%,rgb(0 0 0/0.1) 100%);
+    border-radius: 1.5rem;
+}
+h1{
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 5px 5px 2px black;
+}
+h2{
+    color: #d7d7d7;
+    text-shadow: 2px 2px 1px black;
+    font-weight: bolder;
+    margin:0;
+}
+p{
+    text-shadow: 2px 2px 1px black;
+}
+section{
+    margin: 1rem 0 1rem 0;
+    background-image: linear-gradient(to right, transparent 0%,rgb(0 0 0/0.1) 5%,rgb(0 0 0/0.1) 95%,transparent 100%);
+}
+nav{ 
+    text-align: left;
+    border-radius: 20px;
+}
+address{
+    text-shadow: 2px 2px 1px black;
+    padding: 1.5rem;
+}
+a{
+    padding: 0.25rem;
+}
+a.Email{
+    text-shadow: none;
+}
+a:link{
+    color: #5500ff;
+    background-color:transparent;
+    border-radius: .2rem;
+    transition: 0.5s ease;
+}
+li >a:hover{
+    text-decoration: none;
+    background-color: rgb(255 255 255/0.2);
+    border-radius: .2rem;
+    transition: 0.5s ease;
+}
+ul.filmography-contents{
+    margin-top: 0;
+    text-shadow: 2px 2px 1px black;
+}
+ul.site-navigation{
+    list-style: none;
+}
+ul.site-navigation li{
+    display: inline;
+}
+ul.site-navigation li:not(:last-child)::after{
+    content: " |";
+}
+p.intro{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-image: linear-gradient(to right, transparent 0%,rgb(0 0 0/0.05) 5%,rgb(0 0 0/0.05) 95%,transparent 100%);
+}
+img.diddy{
+    filter: grayscale(80%);
+}
+.movies-list-title{
+    margin-top: 1rem;
+    text-shadow: 2px 2px 1px black;
+
+}
+.site-navigation-title{
+    margin-left: 2rem;
+}
